@@ -3,7 +3,7 @@ import '../styles/App.css';
 
 class Odd extends React.Component {
 componentWillUnmount(){
-  console.log("Odd is Unmounted");
+  console.log("Odd is unmounted")
 }
   render() {
     return (
@@ -16,7 +16,7 @@ componentWillUnmount(){
 
 class Even extends React.Component {
 componentWillUnmount(){
-  console.log("Even is Unmounted");
+  console.log("Even is unmounted")
 }
   render() {
     return (
